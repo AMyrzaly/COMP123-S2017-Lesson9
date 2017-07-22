@@ -9,7 +9,8 @@ using System.Threading.Tasks;
  * Abubakir Myrzaly
  * Date: July 11,2017
  * Description: Demo for Lesson 9
- * Version: 0.3 - Added a Power to the SuperHuman object
+ * Version: 0.4 - Added another Power to the SuperHuman object
+ *              - Also displayed all the powers in the Powers List
  */
 
 namespace COMP123_S2017_Lesson9
@@ -20,6 +21,8 @@ namespace COMP123_S2017_Lesson9
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
             superHuman.AddPower("Spider Climbing",50);
+            superHuman.AddPower("Webcasting", 40);
+            superHuman.DisplayPowers();
         }
     }
 }
